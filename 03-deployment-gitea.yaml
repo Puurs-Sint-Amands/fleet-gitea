@@ -22,7 +22,7 @@ spec:
             - name: GITEA__database__DB_TYPE
               value: postgres
             - name: GITEA__database__HOST
-              value: db:5432
+              value: 10.100.100.87:32345
             - name: GITEA__database__NAME
               value: gitea
             - name: GITEA__database__PASSWD

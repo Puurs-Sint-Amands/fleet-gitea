@@ -11,6 +11,7 @@ spec:
   strategy:
     type: Recreate
   template:
+    spec:
     metadata:
       labels:
         workload.user.cattle.io/workloadselector: apps.deployment-gitea-db

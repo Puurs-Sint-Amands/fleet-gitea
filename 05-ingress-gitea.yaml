@@ -1,13 +1,13 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: gitea-ingress
+  name: g--itea-ingress
   namespace: gitea
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-    - host: git.int.puursam.be
+    - host: g--it.int.puursam.be
       http:
         paths:
           - path: /

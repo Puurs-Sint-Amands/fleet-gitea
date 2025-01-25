@@ -20,4 +20,4 @@ spec:
   tls:
     - hosts:
         - git.int.puursam.be
-      secretName: 222
+      secretName: webserver-v1

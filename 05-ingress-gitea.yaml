@@ -20,4 +20,4 @@ spec:
   tls:
     - hosts:
         - git.int.puursam.be
-      secretName: git-exp20270125
+      secretName: 222
